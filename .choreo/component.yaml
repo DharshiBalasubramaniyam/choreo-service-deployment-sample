@@ -1,0 +1,13 @@
+schemaVersion: 1.1
+endpoints:
+  - name: choreo-service-sample
+    service:
+      port: 8080
+      basePath: /
+    type: REST
+    displayName: choreo-service-sample
+    networkVisibilities:
+      - Public
+      - Project
+      - Organization
+    schemaFilePath: swagger.yaml
