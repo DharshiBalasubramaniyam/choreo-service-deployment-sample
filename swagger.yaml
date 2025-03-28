@@ -4,10 +4,11 @@ info:
   description: API specification for the Choreo Service Sample
   version: 1.0.0
 servers:
-  url: http://localhost:8080
+  - url: http://localhost:8080
 paths:
   /test:
     get:
+      operationId: getTestMessage
       summary: Test endpoint
       description: Returns a simple JSON message.
       responses:
