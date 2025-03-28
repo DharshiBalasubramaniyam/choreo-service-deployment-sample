@@ -3,6 +3,8 @@ info:
   title: Choreo Service Sample API
   description: API specification for the Choreo Service Sample
   version: 1.0.0
+servers:
+  url: http://localhost:8080
 paths:
   /test:
     get:
